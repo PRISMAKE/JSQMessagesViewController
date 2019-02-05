@@ -624,8 +624,7 @@ JSQMessagesKeyboardControllerDelegate>
         cell.messageBubbleTopLabel.textInsets = UIEdgeInsetsMake(0.0f, bubbleTopLabelInset, 0.0f, 0.0f);
     }
 
-    cell.textView.dataDetectorTypes = UIDataDetectorTypeAll;
-
+    cell.textView.dataDetectorTypes = UIDataDetectorTypePhoneNumber;
     cell.backgroundColor = [UIColor clearColor];
     cell.layer.rasterizationScale = [UIScreen mainScreen].scale;
     cell.layer.shouldRasterize = YES;
